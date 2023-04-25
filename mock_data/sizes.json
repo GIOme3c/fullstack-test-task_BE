@@ -2,217 +2,217 @@
     {
         "size_id": 1,
         "length": 200,
-        "wsize_idth": 160,
+        "width": 160,
         "percent_price": 0
     },
     {
         "size_id": 2,
         "length": 200,
-        "wsize_idth": 140,
+        "width": 140,
         "percent_price": -5
     },
     {
         "size_id": 3,
         "length": 200,
-        "wsize_idth": 180,
+        "width": 180,
         "percent_price": 15
     },
     {
         "size_id": 5,
         "length": 200,
-        "wsize_idth": 120,
+        "width": 120,
         "percent_price": -10
     },
     {
         "size_id": 14,
         "length": 200,
-        "wsize_idth": 200,
+        "width": 200,
         "percent_price": 30
     },
     {
         "size_id": 19,
         "length": 200,
-        "wsize_idth": 90,
+        "width": 90,
         "percent_price": -20
     },
     {
         "size_id": 13,
         "length": 190,
-        "wsize_idth": 200,
+        "width": 200,
         "percent_price": 22.5
     },
     {
         "size_id": 18,
         "length": 190,
-        "wsize_idth": 90,
+        "width": 90,
         "percent_price": -22
     },
     {
         "size_id": 4,
         "length": 190,
-        "wsize_idth": 120,
+        "width": 120,
         "percent_price": -12
     },
     {
         "size_id": 6,
         "length": 210,
-        "wsize_idth": 120,
+        "width": 120,
         "percent_price": -8
     },
     {
         "size_id": 7,
         "length": 190,
-        "wsize_idth": 140,
+        "width": 140,
         "percent_price": -7
     },
     {
         "size_id": 8,
         "length": 210,
-        "wsize_idth": 140,
+        "width": 140,
         "percent_price": -3
     },
     {
         "size_id": 9,
         "length": 190,
-        "wsize_idth": 160,
+        "width": 160,
         "percent_price": -2
     },
     {
         "size_id": 10,
         "length": 210,
-        "wsize_idth": 160,
+        "width": 160,
         "percent_price": 2
     },
     {
         "size_id": 11,
         "length": 190,
-        "wsize_idth": 180,
+        "width": 180,
         "percent_price": 13
     },
     {
         "size_id": 12,
         "length": 210,
-        "wsize_idth": 180,
+        "width": 180,
         "percent_price": 17
     },
     {
         "size_id": 15,
         "length": 210,
-        "wsize_idth": 200,
+        "width": 200,
         "percent_price": 32
     },
     {
         "size_id": 16,
         "length": 190,
-        "wsize_idth": 80,
+        "width": 80,
         "percent_price": -27
     },
     {
         "size_id": 17,
         "length": 200,
-        "wsize_idth": 80,
+        "width": 80,
         "percent_price": -25
     },
     {
         "size_id": 108,
         "length": 190,
-        "wsize_idth": 190,
+        "width": 190,
         "percent_price": 20.5
     },
     {
         "size_id": 127,
         "length": 190,
-        "wsize_idth": 110,
+        "width": 110,
         "percent_price": -17.01
     },
     {
         "size_id": 128,
         "length": 190,
-        "wsize_idth": 130,
+        "width": 130,
         "percent_price": -9.5
     },
     {
         "size_id": 129,
         "length": 190,
-        "wsize_idth": 150,
+        "width": 150,
         "percent_price": -4.5
     },
     {
         "size_id": 130,
         "length": 190,
-        "wsize_idth": 170,
+        "width": 170,
         "percent_price": 5.5
     },
     {
         "size_id": 131,
         "length": 200,
-        "wsize_idth": 110,
+        "width": 110,
         "percent_price": -15
     },
     {
         "size_id": 132,
         "length": 200,
-        "wsize_idth": 130,
+        "width": 130,
         "percent_price": -7.5
     },
     {
         "size_id": 133,
         "length": 200,
-        "wsize_idth": 150,
+        "width": 150,
         "percent_price": -2.5
     },
     {
         "size_id": 134,
         "length": 200,
-        "wsize_idth": 170,
+        "width": 170,
         "percent_price": 7.5
     },
     {
         "size_id": 135,
         "length": 200,
-        "wsize_idth": 190,
+        "width": 190,
         "percent_price": 22.5
     },
     {
         "size_id": 136,
         "length": 210,
-        "wsize_idth": 80,
+        "width": 80,
         "percent_price": -23
     },
     {
         "size_id": 137,
         "length": 210,
-        "wsize_idth": 90,
+        "width": 90,
         "percent_price": -18
     },
     {
         "size_id": 138,
         "length": 210,
-        "wsize_idth": 110,
+        "width": 110,
         "percent_price": -13
     },
     {
         "size_id": 139,
         "length": 210,
-        "wsize_idth": 130,
+        "width": 130,
         "percent_price": -5.5
     },
     {
         "size_id": 140,
         "length": 210,
-        "wsize_idth": 150,
+        "width": 150,
         "percent_price": -0.5
     },
     {
         "size_id": 141,
         "length": 210,
-        "wsize_idth": 170,
+        "width": 170,
         "percent_price": 9.5
     },
     {
         "size_id": 142,
         "length": 210,
-        "wsize_idth": 190,
+        "width": 190,
         "percent_price": 24.5
     }
 ]

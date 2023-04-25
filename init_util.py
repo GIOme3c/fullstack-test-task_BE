@@ -9,7 +9,8 @@ JSON_DIR = "mock_data/"
 
 def init_db():
 
-    os.path.exists(DB_PATH)
+    if os.path.exists(DB_PATH):
+        return
 
     connection = get_connection()
     cursor = connection.cursor()
@@ -20,13 +21,17 @@ def init_db():
             text = file.read()
             return json.loads(text)
 
+    def to_str(smth):
+        if smth is None:
+            smth = ''
+        return repr(smth)
 
     def fill_table(tab_name):
         data = read_json(f"{tab_name}.json")
         fields = data[0].keys()
 
         for row in data:
-            values = [str(x) for x in row.values()]
+            values = [to_str(x) for x in row.values()]
             cursor.execute(f"""
                 insert into {tab_name}
                 ({','.join(fields)})
@@ -35,25 +40,24 @@ def init_db():
             """)
 
 
-    def create_relations(setting_name):
-        products = select("select product_id from products")
-        settings = select(f"select {setting_name}_id from {setting_name}s")
+    def create_relations(setting_name, products, settings):
+        # products = select("select product_id from products")
+        # settings = select(f"select {setting_name}_id from {setting_name}s")
         tab_size = len(settings)
 
-        for product in products:
-            prod_id = product[0]
+        for prod_id in products:
             is_used = [0]*tab_size
 
             for _ in range(0,10):
                 while True:
-                    new_relation = randint(0, tab_size)
+                    new_relation = randint(0, tab_size-1)
                     if not is_used[new_relation]:
                         is_used[new_relation] = True
                         cursor.execute(f"""
                             insert into products_to_{setting_name}s
                             (product_id, {setting_name}_id)
                             values
-                            ({prod_id},{settings[new_relation][0]})
+                            ({prod_id},{settings[new_relation]})
                         """)
                         break
 
@@ -62,9 +66,10 @@ def init_db():
         #PRODUCTS to <setting_name> (MtM)
         cursor.execute(f"""
             CREATE TABLE IF NOT EXISTS products_to_{setting_name}s(
-            {setting_name}_id INT PRIMARY KEY,
-            product_id INT PRIMARY KEY,
-            FOREIGN KEY({setting_name}_id) REFERENCES {setting_name}s({setting_name}_id)
+            {setting_name}_id INT,
+            product_id INT,
+            PRIMARY KEY ({setting_name}_id, product_id),
+            FOREIGN KEY({setting_name}_id) REFERENCES {setting_name}s({setting_name}_id),
             FOREIGN KEY(product_id) REFERENCES products(product_id));
         """)
 
@@ -121,8 +126,10 @@ def init_db():
         fill_table(tab_name)
 
     #CREATE RELATIONS & FILL RELATIONS
+    products = [x["product_id"] for x in read_json("products.json")]
     for setting_name in ['size','option','material','base']:
         create_many_to_many(setting_name)
-        create_relations(setting_name)
+        sub_data = [x[setting_name+'_id'] for x in read_json(setting_name+'s.json')]
+        create_relations(setting_name, products, sub_data)
 
     connection.commit()

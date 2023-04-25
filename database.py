@@ -9,6 +9,7 @@ def get_connection():
 
 
 def select(rqst):
-    with get_connection().cursor() as cursor:
+    with get_connection() as connection:
+        cursor = connection.cursor()
         cursor.execute(rqst)
         return cursor.fetchall()

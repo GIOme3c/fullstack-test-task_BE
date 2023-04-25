@@ -22,7 +22,7 @@ def get_product(product_id):
 
     def generate_subdata(setting_name, fields):
         sub_data = database.select(f"""
-        select {','.join(fields)}
+        select products_to_{setting_name}s.{','.join(fields)}
         from products_to_{setting_name}s
         join {setting_name}s on {setting_name}s.{setting_name}_id = products_to_{setting_name}s.{setting_name}_id
         where product_id = {repr(product_id)}""")
@@ -30,7 +30,7 @@ def get_product(product_id):
         response = []
         for row in sub_data:
             response.append({
-                field:row[idx] for field,idx in enumerate(fields)
+                field:row[idx] for idx, field in enumerate(fields)
             })
         
         return response
@@ -39,7 +39,7 @@ def get_product(product_id):
     product_data = database.select(f"""
     select product_id, image, title, price, slug 
     from products
-    where product_id = {repr(product_id)}""")
+    where product_id = {repr(product_id)}""")[0]
 
     product_json = {
         'product_id':product_data[0],
