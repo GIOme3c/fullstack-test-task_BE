@@ -1,0 +1,198 @@
+[
+    {
+        "product_id": 139,
+        "image": "/media/shop/preview/preview_139.jpg",
+        "title": "Кровать Олимпия",
+        "slug": "olimpiya",
+        "price": "40500.00"
+    },
+    {
+        "product_id": 5,
+        "image": "/media/shop/preview/preview_5_yzY72vJ.jpg",
+        "title": "Кровать Ла Скала",
+        "slug": "la-skala",
+        "price": "38000.00"
+    },
+    {
+        "product_id": 6,
+        "image": "/media/shop/preview/preview_6.jpg",
+        "title": "Кровать Пантеон",
+        "slug": "krovat-panteon",
+        "price": "35500.00"
+    },
+    {
+        "product_id": 2,
+        "image": "/media/shop/preview/preview_2_50qWgdJ.jpg",
+        "title": "Кровать Птичье гнездо",
+        "slug": "ptiche-gnezdo",
+        "price": "33500.00"
+    },
+    {
+        "product_id": 14,
+        "image": "/media/shop/preview/preview_14_Spau01j.jpg",
+        "title": "Кровать Купол тысячелетия",
+        "slug": "kupol-tyisyacheletiya",
+        "price": "47000.00"
+    },
+    {
+        "product_id": 61,
+        "image": "/media/shop/preview/preview_61.jpg",
+        "title": "Кровать Монсеррат",
+        "slug": "monserrat",
+        "price": "52000.00"
+    },
+    {
+        "product_id": 4,
+        "image": "/media/shop/preview/preview_4_G5epQUc.jpg",
+        "title": "Кровать Монблан",
+        "slug": "monblan",
+        "price": "39000.00"
+    },
+    {
+        "product_id": 7,
+        "image": "/media/shop/preview/preview_7_0Tw5z1b.jpg",
+        "title": "Кровать Пальмира",
+        "slug": "palmira",
+        "price": "38000.00"
+    },
+    {
+        "product_id": 12,
+        "image": "/media/shop/preview/preview_12.jpg",
+        "title": "Кровать Алькасар",
+        "slug": "alkasar",
+        "price": "58000.00"
+    },
+    {
+        "product_id": 1,
+        "image": "/media/shop/preview/preview_1.jpg",
+        "title": "Кровать Атриум",
+        "slug": "atrium",
+        "price": "33500.00"
+    },
+    {
+        "product_id": 9,
+        "image": "/media/shop/preview/preview_9.jpg",
+        "title": "Кровать Риальто",
+        "slug": "rialto",
+        "price": "40000.00"
+    },
+    {
+        "product_id": 59,
+        "image": "/media/shop/preview/preview_59.jpg",
+        "title": "Кровать Колизей",
+        "slug": "kolizej",
+        "price": "65000.00"
+    },
+    {
+        "product_id": 10,
+        "image": "/media/shop/preview/preview_10.jpg",
+        "title": "Кровать Авила",
+        "slug": "avila",
+        "price": "49000.00"
+    },
+    {
+        "product_id": 18,
+        "image": "/media/shop/preview/preview_18.jpg",
+        "title": "Кровать Эрмитаж",
+        "slug": "ermitazh",
+        "price": "80500.00"
+    },
+    {
+        "product_id": 8,
+        "image": "/media/shop/preview/preview_8_DzVUkB2.jpg",
+        "title": "Кровать Мирабель",
+        "slug": "mirabel",
+        "price": "44500.00"
+    },
+    {
+        "product_id": 13,
+        "image": "/media/shop/preview/preview_13.jpg",
+        "title": "Кровать Ротонда",
+        "slug": "rotonda",
+        "price": "55500.00"
+    },
+    {
+        "product_id": 17,
+        "image": "/media/shop/preview/preview_17.jpg",
+        "title": "Кровать Биг Бен",
+        "slug": "big-ben",
+        "price": "64500.00"
+    },
+    {
+        "product_id": 11,
+        "image": "/media/shop/preview/preview_11.jpg",
+        "title": "Кровать Кальвет",
+        "slug": "kalvet",
+        "price": "45000.00"
+    },
+    {
+        "product_id": 15,
+        "image": "/media/shop/preview/preview_15.jpg",
+        "title": "Кровать Лувр",
+        "slug": "luvr",
+        "price": "75000.00"
+    },
+    {
+        "product_id": 3,
+        "image": "/media/shop/preview/preview_3.jpg",
+        "title": "Кровать Космопорт",
+        "slug": "kosmoport",
+        "price": "34000.00"
+    },
+    {
+        "product_id": 16,
+        "image": "/media/shop/preview/preview_16.jpg",
+        "title": "Кровать Помпиду",
+        "slug": "pompproduct_idu",
+        "price": "80500.00"
+    },
+    {
+        "product_id": 60,
+        "image": "/media/shop/preview/preview_60.jpg",
+        "title": "Кровать Акрополь",
+        "slug": "akropol",
+        "price": "60000.00"
+    },
+    {
+        "product_id": 20,
+        "image": null,
+        "title": "Кровать Иордана",
+        "slug": "iordana",
+        "price": "183000.00"
+    },
+    {
+        "product_id": 19,
+        "image": null,
+        "title": "Кровать Версаль",
+        "slug": "versal",
+        "price": "111000.00"
+    },
+    {
+        "product_id": 126,
+        "image": null,
+        "title": "Кровать Алькасар Пано",
+        "slug": "krovat-alkasar-pano",
+        "price": "58000.00"
+    },
+    {
+        "product_id": 136,
+        "image": null,
+        "title": "Колизей Пано",
+        "slug": "kolizej-pano",
+        "price": "65000.00"
+    },
+    {
+        "product_id": 137,
+        "image": null,
+        "title": "Кровать Космопорт Пано",
+        "slug": "krovat-kosmoport-pano",
+        "price": "36500.00"
+    },
+    {
+        "product_id": 197,
+        "image": "/media/shop/preview/preview_197_HO6DEvU.jpg",
+        "title": "Кровать Атриум детская",
+        "slug": "krovat-detskaya",
+        "price": "25125.00"
+    }
+]

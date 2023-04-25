@@ -1,0 +1,122 @@
+[
+    {
+        "option_id": 4,
+        "title": "Утолщённые царги",
+        "price": 7000,
+        "image": "/media/image_4_g8TCCbA.jpg"
+    },
+    {
+        "option_id": 25,
+        "title": "Кант на стыке царг в 45°",
+        "price": 600,
+        "image": "/media/image_25_KTDNu3y.jpg"
+    },
+    {
+        "option_id": 54,
+        "title": "Увеличение спинки +10 см",
+        "price": 4050,
+        "image": "/media/image_54_jHCoption_id3s.jpg"
+    },
+    {
+        "option_id": 55,
+        "title": "Увеличение спинки +20 см",
+        "price": 6075,
+        "image": "/media/image_55_wZS1AFx.jpg"
+    },
+    {
+        "option_id": 69,
+        "title": "Ножки, покрытые маслом",
+        "price": 0,
+        "image": null
+    },
+    {
+        "option_id": 71,
+        "title": "Ножки Черные",
+        "price": 2000,
+        "image": null
+    },
+    {
+        "option_id": 72,
+        "title": "Ножки Орех Италия",
+        "price": 2000,
+        "image": null
+    },
+    {
+        "option_id": 70,
+        "title": "Ножки Орех",
+        "price": 2000,
+        "image": null
+    },
+    {
+        "option_id": 73,
+        "title": "Ножки Белый",
+        "price": 2000,
+        "image": null
+    },
+    {
+        "option_id": 74,
+        "title": "Ножки Орех Венге",
+        "price": 2000,
+        "image": null
+    },
+    {
+        "option_id": 92,
+        "title": "Увеличенные тонкие царги",
+        "price": 3500,
+        "image": null
+    },
+    {
+        "option_id": 94,
+        "title": "Увеличенные утолщенные царги с утяжками (3 царги)",
+        "price": 4000,
+        "image": null
+    },
+    {
+        "option_id": 93,
+        "title": "Увеличенные утолщенные царги",
+        "price": 4000,
+        "image": null
+    },
+    {
+        "option_id": 95,
+        "title": "Увел.тонкие царги (утяжки на передней царге)",
+        "price": 4500,
+        "image": null
+    },
+    {
+        "option_id": 96,
+        "title": "Увелич.утолщенные царги (утяжки на передней царге)",
+        "price": 6000,
+        "image": null
+    },
+    {
+        "option_id": 97,
+        "title": "Уменьшение спинки -10см",
+        "price": 0,
+        "image": null
+    },
+    {
+        "option_id": 98,
+        "title": "Уменьшение спинки -20см",
+        "price": 0,
+        "image": null
+    },
+    {
+        "option_id": 108,
+        "title": "Комплект декоративных подушек 3 штуки",
+        "price": 4500,
+        "image": "/media/image_108.jpg"
+    },
+    {
+        "option_id": 109,
+        "title": "Комплект декоративных подушек 5 штук",
+        "price": 7000,
+        "image": "/media/image_109.jpg"
+    },
+    {
+        "option_id": 110,
+        "title": "Комплект декоративных подушек 8 штук",
+        "price": 10500,
+        "image": "/media/image_110.jpg"
+    }
+]

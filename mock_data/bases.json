@@ -1,0 +1,68 @@
+[
+    {
+        "base_id": 5,
+        "title": "Ортопедическое основание",
+        "price": 0,
+        "image": "/media/image_5_QcoDHmz.png"
+    },
+    {
+        "base_id": 36,
+        "title": "Основание с подъемным механизмом",
+        "price": 17000,
+        "image": "/media/image_36_iKnVvgI.png"
+    },
+    {
+        "base_id": 37,
+        "title": "Деревянное",
+        "price": 0,
+        "image": "/media/image_37_5ALeaqC.png"
+    },
+    {
+        "base_id": 38,
+        "title": "Металлическое",
+        "price": 14000,
+        "image": "/media/image_38_wXd0IiE.png"
+    },
+    {
+        "base_id": 31,
+        "title": "Подъемный механизм без ящиков",
+        "price": 17000,
+        "image": "/media/image_31_SGPzTne.png"
+    },
+    {
+        "base_id": 1,
+        "title": "Подъёмный механизм с 1 ящиком",
+        "price": 24000,
+        "image": "/media/image_1_gGUZpaV.png"
+    },
+    {
+        "base_id": 2,
+        "title": "Подъёмный механизм с 2 ящиками",
+        "price": 27000,
+        "image": "/media/image_2_hsWTLE9.png"
+    },
+    {
+        "base_id": 104,
+        "title": "Эко ПМ 1 ящик new Олимпия",
+        "price": 17000,
+        "image": null
+    },
+    {
+        "base_id": 105,
+        "title": "Эко ПМ 2 ящика new Олимпия",
+        "price": 19500,
+        "image": null
+    },
+    {
+        "base_id": 106,
+        "title": "Эко ПМ без дна new Олимпия",
+        "price": 14500,
+        "image": null
+    },
+    {
+        "base_id": 99,
+        "title": "ЭКО",
+        "price": 0,
+        "image": null
+    }
+]
