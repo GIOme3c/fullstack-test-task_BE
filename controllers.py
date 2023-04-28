@@ -1,5 +1,8 @@
 import database
 
+def add_order(data):
+    ...
+
 def get_products():
     raw_products = database.select("""
     select product_id, image, title, price, slug 
@@ -8,7 +11,7 @@ def get_products():
     response = []
     for row in raw_products:
         response.append({
-            "id":row[0],
+            "product_id":row[0],
             "image":row[1],
             "title":row[2],
             "price":row[3],

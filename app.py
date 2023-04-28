@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS, cross_origin
 
 import controllers
@@ -22,6 +22,12 @@ def get_product(product_id):
     response = controllers.get_product(product_id)
     return response, 200
 
+
+@cross_origin
+@app.route("/api/orders", methods=["POST"])
+def add_order():
+    controllers.add_order(request.json)
+    return {},204
 
 if __name__ == "__main__":
     app.run(debug = True, host = '0.0.0.0')
